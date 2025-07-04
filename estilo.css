@@ -1,0 +1,293 @@
+body {
+    background-image: url(/imagens/Screenshot\ 2025-06-12\ at\ 17-32-33\ oceano\ poseidon\ -\ Pesquisa\ Google.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family:Kaushan Script ;
+    src: url(fontes/KaushanScript-Regular.ttf);
+}
+@font-face {
+    font-family:Manufacturing ;
+    src: url(fontes/ManufacturingConsent-Regular.ttf);
+}
+
+
+.cabeçalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  background-color: rgba(26, 7, 95, 0.288);
+  position: relative;
+  border-radius: 20px;
+  background-image: url(imagens/Captura_de_tela_2025-07-01_211046-removebg-preview.png) ;
+  background-size: 320px;
+
+}
+.titulo {
+  position: center;
+  left: 50%;
+  font-size: 52px;
+  color: white;
+  font-family:Kaushan Script;
+  pointer-events: none;
+}
+.titulo2 {
+  color:white;
+  font-family: Kaushan Script;
+  font-size: 30px;
+}
+
+.botão {
+  background-color: #05b4ff;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: Manufacturing;
+  font-size: 30px;
+}
+.botão:hover {
+  background-color: #005577;
+}
+
+.container {
+  border-left: #00b7ff; 
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: rgba(0, 150, 200, 0.3);
+  padding: 15px;
+  border-radius: 15px;
+  width: 500px;
+  font-family: Arial, sans-serif;
+  color: white;
+  gap: 10px;
+  margin: 5px;
+  border-left: solid #05b4ff 5px ;
+  flex-direction: column;
+  
+  
+}
+
+.imagemdocontainer {
+    border-radius: 50px; 
+    top: 10px; 
+    right: 10px;
+    width: 150px;
+    
+   
+}
+
+.texto1 {
+    color: rgb(255, 255, 255);
+    margin-right: 15px;
+    font-family: monospace;
+    font-size:20px;
+    
+}
+
+.botão-container {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  font-size: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.botão-container:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.botão2 {
+ background-color: #00b7ff;
+ border-radius: 10px;
+ cursor: pointer;
+ font-family:Manufacturing ;
+ font-size: 30px;
+ white-space: nowrap;
+}
+.botão2:hover{
+  background-color: #005577;
+}
+
+.container-direito {
+  border-left:solid #00b7ff;
+  color:white ;
+  background: rgba(0, 150, 200, 0.3);
+  border-radius: 15px;
+  width: 200px;
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+  gap: 80px;
+  padding-right: 200px;
+}
+
+.container-lado {
+  flex-wrap: wrap;
+ justify-content: center;
+  gap: 200px;
+  display: flex;
+}
+
+.container-disco {
+  border: solid 5px rgba(255, 255, 255, 0.432);
+  margin-right: 150px;
+  padding: 85px;
+  flex-direction: column;
+  background-color: rgb(37, 35, 35, 0.6);
+  width: 265px;
+  border-radius: 30px;
+  color: blanchedalmond;
+}
+
+.botão3 {
+  align-items: center;
+  background-color: #00b7ff;
+  border-radius: 20px;
+  font-family:Manufacturing ;
+  font-size: 30px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.botão3:hover{
+  background-color: #005577;
+}
+.container-lado2 {
+  align-items: center;
+  gap: 800px;
+  display: flex;
+  justify-content: center;
+}
+
+#imagemfilmeedisco {
+  border-radius: 200px;
+  width: 300px;
+}
+#quemsoueu {
+  background-image: url(imagens/Captura\ de\ tela\ 2025-07-02\ 091141.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+.containerpg2 {
+  margin-left: 150px;
+  background-color: #05b4ffa6;
+  border-radius: 30px;
+  border: solid white;
+  padding: 20px;
+  width: 500px;
+  font-family: monospace;
+  font-size: 24px;
+  color: white;
+  height: 600px;
+  text-align: center;
+}
+
+#quemitoesse {
+  background-image: url(imagens/Captura\ de\ tela\ 2025-07-02\ 100110.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.containerpg3 {
+  margin-left: 150px;
+  background-color: #12655A;
+  border-radius: 30px;
+  border: solid white;
+  padding: 20px;
+  width: 500px;
+  font-family: monospace;
+  font-size: 24px;
+  color: white;
+  height: 600px;
+  text-align: center;
+}
+
+#galeria {
+  background-image: url(imagens/Captura\ de\ tela\ 2025-07-02\ 103924.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.quatroprimeiras {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 50px;
+ justify-content: center;
+}
+
+
+.imagensgaleria {
+  border: solid white;
+  border-radius:30px ;
+  margin-left: 30px;
+  height: 400px;
+  width: 350px;
+}
+
+.descrição {
+
+  font-size: 24px;
+  font-family: monospace;
+  color:rgb(255, 255, 255);
+  margin-left: 100px;
+}
+
+#Indicações {
+  background-image: url(imagens/Captura\ de\ tela\ 2025-07-02\ 113312.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container4{
+  background-color: #043b4c7c;
+  border: solid white;
+  border-radius: 30px;
+  width: 380px;
+}
+.final{
+  font-size: 24px;
+  color: white;
+}
+
+#desenvolvedor {
+  background-color: #1e93c2b4;
+  background-image: url(imagens/Captura_de_tela_2025-07-01_211046-removebg-preview.png);
+ 
+}
+
+#fotominha {
+  border: solid 30px white;
+  border-radius: 100px;
+}
+
+#home {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+
+
+
+
